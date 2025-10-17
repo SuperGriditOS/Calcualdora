@@ -1,0 +1,20 @@
+# Dependencias principales
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Para desarrollo y testing
+black>=22.0.0
+flake8>=5.0.0
+
+# Para funcionalidades web (REQUERIDAS para la interfaz web)
+pandas>=1.5.0  # Para reportes avanzados y tablas
+streamlit>=1.25.0  # Para interfaz web principal
+plotly>=5.15.0  # Para gráficos interactivos
+flask>=2.3.0  # Para interfaz web alternativa
+
+# Para manejo de fechas
+python-dateutil>=2.8.0
+
+# Para despliegue web (opcional)
+streamlit-authenticator>=0.2.0  # Para autenticación (opcional)
+gunicorn>=21.0.0  # Para despliegue en producción
